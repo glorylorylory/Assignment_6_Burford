@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.scroll-contain {
+    overflow: hidden;
+    border: none;
+    position: relative;
+}
+
+.scroll-img {
+    background: url(images/space.jpeg) repeat-x;
+    width: 4500px;
+    height: 100vh;
+    animation: slide 50s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(-2250px);
+    }
+}
+
+.info-contain {
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h1, p {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#SpacePeople {
+    color: red;
+    font-weight: 700;
+}
+
+.ISS {
+    position: fixed;
+    width: 100%;
+    height: 0%;
+    top: 250px;
+    left: 100px;
+    bottom: 0;
+    right: 0;
+}
+
+.TG {
+    position: fixed;
+    width: 100%;
+    height: 0%;
+    top: 220px;
+    left: 930px;
+    bottom: 0;
+    right: 0;
+}
+
+img {
+    width: 500px;
+}
+
+.ISS details {
+    margin-left: 150px;
+}
+
+.TG details {
+    margin-left: 180px;
+}
